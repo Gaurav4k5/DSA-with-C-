@@ -5,7 +5,7 @@ int main () {
     int n;
     cin >> n;
 
-    //---Full pyramid ----
+                                                                    // ---Full pyramid ----
     // for (int row=0; row<n; row++)
     // {
     //  for (int col=0; col<n-row-1;  col++) {
@@ -19,7 +19,7 @@ int main () {
     // }
 
 
-     //----inverted pyramid -----
+                                                              //----inverted pyramid -----
     // for (int row=0; row<n; row++) {
     //     for(int col=0; col<row; col++) 
     //     {
@@ -31,7 +31,7 @@ int main () {
     //     cout << endl;
     // }
 
-    //-----------Diamond-------------
+                                                           //    -----------Diamond-------------
     
     // for (int row=0; row<n; row++)
     // {
@@ -53,7 +53,8 @@ int main () {
     //     cout << endl;
     // }
 
-    //--hollow Diamond--
+                                                                     //--hollow Diamond--
+
     // for (int row=0; row<n; row++){
 
     //     for (int col=0; col<n-row-1; col++) {
@@ -85,7 +86,7 @@ int main () {
     //     cout << endl;
     // }
 
-    //-----hollow Diamond in rectangle box-------
+                                                             //-----hollow Diamond in rectangle box-------
 
     // for (int row=0; row<n; row++) {
     //      for (int col=0; col<n-row; col ++) {
@@ -115,24 +116,24 @@ int main () {
 
     // }
 
-    //---------fancy pattarn #2-------
+                                                                        //---------fancy pattarn #2-------
 
-    // for (int row=0; row<n; row++) {
-    //     for (int col=0; col<row+1; col++) {
-    //         cout << row+1 ;
-    //         if ( col != row )
-    //         cout <<"*";
-    //     }
-    //     cout << endl;
-    // }
-    // for (int row=0; row<n; row++) {
-    //     for (int col=0; col<n-row; col++) {
-    //         cout << n-row ;
-    //         if ( col != n-row-1 )
-    //         cout <<"*";
-    //     }
-    //     cout << endl;
-    // }
+    for (int row=0; row<n; row++) {
+        for (int col=0; col<row+1; col++) {
+            cout << row+1 ;
+            if ( col != row )
+            cout <<"*";
+        }
+        cout << endl;
+    }
+    for (int row=0; row<n; row++) {
+        for (int col=0; col<n-row; col++) {
+            cout << n-row ;
+            if ( col != n-row-1 )
+            cout <<"*";
+        }
+        cout << endl;
+    }
     
     for (int row=0; row<n; row++) {
         int col;

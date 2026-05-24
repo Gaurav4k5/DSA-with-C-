@@ -7,12 +7,12 @@ int main () {
 
 
 // --typecasting--
-int a =5;
-char b  ='d';
+int a =10;
+char b  ='A';
 
 int sum1 =  a+b;
-// cout << sum1;
+cout << sum1;
 
-float f = 2.0 + sum1;
-cout << f;
+// float f = 2.0 + sum1;
+// cout << f;
 }
